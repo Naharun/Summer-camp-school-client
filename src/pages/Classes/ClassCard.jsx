@@ -54,7 +54,7 @@ const ClassCard = ({ classData }) => {
 
     return (
         <>
-            <div className="card w-96 bg-base-100 shadow-2xl" >
+            <div className="card w-96 bg-base-100 shadow-xl" >
                 <figure className="h-1/2"><img className="w-full"  src={photo} alt="class" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{className}</h2>
